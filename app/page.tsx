@@ -628,11 +628,11 @@ export default function TestPortal() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="bg-blue-50 rounded-lg p-6 mb-6">
-              <h3 className="text-xl font-semibold text-blue-800 mb-2">Your Score</h3>
-              <div className="text-3xl font-bold text-blue-600">
+              <h3 className="text-xl font-semibold text-blue-800 mb-2">Your Score has Been Recorded</h3>
+{/*               <div className="text-3xl font-bold text-blue-600">
                 {score}/{questions.length}
-              </div>
-              <div className="text-lg text-blue-700">{Math.round((score / questions.length) * 100)}%</div>
+              </div> */}
+{/*               <div className="text-lg text-blue-700">{Math.round((score / questions.length) * 100)}%</div> */}
             </div>
             <p className="text-lg text-gray-600">Shortlisted students will be called for the interview on Saturday.</p>
             <p className="text-lg text-gray-600">Stay tuned for updates via your email.</p>
